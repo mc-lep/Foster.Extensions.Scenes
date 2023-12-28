@@ -21,4 +21,4 @@ jobs:
           dotnet pack src/FosterFramework.Extensions.Scenes.csproj -c Release
 
     - name: Push
-      run: dotnet nuget push ./src/artifacts/**/*.nupkg -k ${{secrets.NUGET_TOKEN}} --skip-duplicate --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push **/artifacts/*.nupkg -k ${{secrets.NUGET_TOKEN}} --skip-duplicate --source https://api.nuget.org/v3/index.json
