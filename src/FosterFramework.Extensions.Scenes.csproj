@@ -5,13 +5,13 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Title>Foster.Framework.Extensions.Scenes</Title>
-		<Product>Foster.Framework.Extensions</Product>
-		<Version>0.0.6-alpha</Version>
+		<Title>FosterFramework.Extensions.Scenes</Title>
+		<Product>FosterFramework.Extensions</Product>
+		<Version>0.0.7-alpha</Version>
 		<Authors>ML</Authors>
 		<RootNamespace>Foster.Framework.Extensions.Scenes</RootNamespace>
 		<RepositoryUrl>https://github.com/mc-lep/Foster.Extensions.Scenes</RepositoryUrl>
-		<PackageId>Foster.Framework.Extensions.Scenes</PackageId>
+		<PackageId>Foster.FrameworkExtensions.Scenes</PackageId>
 		<PackageProjectUrl>https://github.com/mc-lep/Foster.Extensions.Scenes</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
