@@ -6,6 +6,11 @@
 		<Nullable>enable</Nullable>
 		<RootNamespace>Foster.Framework.Extensions.Scenes</RootNamespace>
 		<RepositoryUrl>https://github.com/mc-lep/Foster.Extensions.Scenes</RepositoryUrl>
+		<PackageId>Foster.Framework.Extensions.Scenes</PackageId>
+		<PackageProjectUrl>https://github.com/mc-lep/Foster.Extensions.Scenes</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageOutputPath>$(SolutionDir)artifacts/</PackageOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
