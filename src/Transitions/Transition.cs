@@ -5,20 +5,18 @@
         private float _elapsedTime;
         private readonly float _halfDuration;
         private readonly float _halfDurationRatio;
-        private readonly Ease.Easer _easer;
 
         public event Action? OnInState;
         public event Action? OnCompleted;
 
         public float DurationInSeconds { get; }
         public TransitionState State { get; private set; }
-        public float Progress => _easer(_elapsedTime * _halfDurationRatio);
+        public float Progress => Calc.Clamp(_elapsedTime * _halfDurationRatio, 0f, 1f);
 
-        public Transition(float durationInSeconds, Ease.Easer? easer = null)
+        public Transition(float durationInSeconds)
         {
             _halfDuration = durationInSeconds * 0.5f;
-            _halfDurationRatio = 1f / _halfDuration;
-            _easer = easer ?? Ease.Linear;    
+            _halfDurationRatio = 1f / _halfDuration; 
 
             DurationInSeconds = durationInSeconds;
             State = TransitionState.Out;
