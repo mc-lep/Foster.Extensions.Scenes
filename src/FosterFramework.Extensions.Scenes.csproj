@@ -8,10 +8,21 @@
 		<RepositoryUrl>https://github.com/mc-lep/Foster.Extensions.Scenes</RepositoryUrl>
 		<PackageId>Foster.Framework.Extensions.Scenes</PackageId>
 		<PackageProjectUrl>https://github.com/mc-lep/Foster.Extensions.Scenes</PackageProjectUrl>
-		<PackageReadmeFile>$(SolutionDir)README.md</PackageReadmeFile>
-		<PackageLicenseFile>$(SolutionDir)LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageOutputPath>$(SolutionDir)artifacts/</PackageOutputPath>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="FosterFramework" Version="0.1.6-alpha" />
