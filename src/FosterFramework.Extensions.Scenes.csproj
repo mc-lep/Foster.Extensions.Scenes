@@ -7,7 +7,7 @@
 		<Nullable>enable</Nullable>
 		<Title>FosterFramework.Extensions.Scenes</Title>
 		<Product>FosterFramework.Extensions</Product>
-		<Version>0.0.8-alpha</Version>
+		<Version>0.0.9-alpha</Version>
 		<Authors>ML</Authors>
 		<RootNamespace>Foster.Framework.Extensions.Scenes</RootNamespace>
 		<RepositoryUrl>https://github.com/mc-lep/Foster.Extensions.Scenes</RepositoryUrl>
@@ -20,18 +20,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="FosterFramework" Version="0.1.7-alpha" />
-  </ItemGroup>
-  <ItemGroup>
-	  <None Include="..\LICENSE">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
-	  <None Include="..\README.md">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
 	</ItemGroup>
-
+  
 	<ItemGroup>
 		<None Include="$(ProjectDir)..\LICENSE" Pack="true" PackagePath="/" />
 		<None Include="$(ProjectDir)..\README.md" Pack="true" PackagePath="/" />
